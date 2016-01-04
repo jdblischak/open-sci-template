@@ -22,6 +22,24 @@ You can create a new file from the template using the command `cp`.
 cp analysis/template.Rmd analysis/newfile.Rmd
 ```
 
+## Include executable code
+
+Executable code chunks are processed with [knitr][].
+
+[knitr]: http://yihui.name/knitr/
+
+```{r name-of-chunk}
+x <- 1:10
+y <- 11:20
+```
+
+Any plots are saved to the directory `figure`.
+The name of the chunk is used to derive the name of the file.
+
+```{r name-of-plot}
+plot(x, y, main = "Example plot")
+```
+
 ## Session information
 
 ```{r info}
