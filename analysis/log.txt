@@ -1,1 +1,72 @@
-make: Nothing to be done for `all'.
+R --slave -e "set.seed(100);rmarkdown::render('about.Rmd')"
+
+
+processing file: about.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: about.knit.md
+
+/usr/bin/pandoc about.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output about.html --smart --email-obfuscation none +RTS -K64m -RTS --standalone --section-divs --table-of-contents --toc-depth 3 --template /mnt/lustre/home/jdblischak/lib64/R/library/rmarkdown/rmd/h/default.html --variable 'theme:bootstrap' --include-in-header /tmp/RtmpMcayyl/rmarkdown-str2bc05fff4959.html --no-highlight --variable highlightjs=libs/highlight --include-in-header include/in_header.html --include-before-body include/before_body.html --include-after-body include/after_body.html 
+
+Output created: about.html
+R --slave -e "set.seed(100);rmarkdown::render('index.Rmd')"
+
+
+processing file: index.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: index.knit.md
+
+/usr/bin/pandoc index.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output index.html --smart --email-obfuscation none +RTS -K64m -RTS --standalone --section-divs --table-of-contents --toc-depth 3 --template /mnt/lustre/home/jdblischak/lib64/R/library/rmarkdown/rmd/h/default.html --variable 'theme:bootstrap' --include-in-header /tmp/Rtmp9v2dWa/rmarkdown-str2bcf5413c378.html --no-highlight --variable highlightjs=libs/highlight --include-in-header include/in_header.html --include-before-body include/before_body.html --include-after-body include/after_body.html 
+
+Output created: index.html
+R --slave -e "set.seed(100);rmarkdown::render('license.Rmd')"
+
+
+processing file: license.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+output file: license.knit.md
+
+/usr/bin/pandoc license.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output license.html --smart --email-obfuscation none +RTS -K64m -RTS --standalone --section-divs --table-of-contents --toc-depth 3 --template /mnt/lustre/home/jdblischak/lib64/R/library/rmarkdown/rmd/h/default.html --variable 'theme:bootstrap' --include-in-header /tmp/Rtmp2REENN/rmarkdown-str2bde6df272c6.html --no-highlight --variable highlightjs=libs/highlight --include-in-header include/in_header.html --include-before-body include/before_body.html --include-after-body include/after_body.html 
+
+Output created: license.html
+R --slave -e "set.seed(100);rmarkdown::render('template.Rmd')"
+
+
+processing file: template.Rmd
+  |                                                                         |                                                                 |   0%  |                                                                         |........                                                         |  12%
+   inline R code fragments
+
+  |                                                                         |................                                                 |  25%
+label: chunk-options (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |........................                                         |  38%
+  ordinary text without R code
+
+  |                                                                         |................................                                 |  50%
+label: name-of-chunk
+  |                                                                         |.........................................                        |  62%
+  ordinary text without R code
+
+  |                                                                         |.................................................                |  75%
+label: name-of-plot
+  |                                                                         |.........................................................        |  88%
+  ordinary text without R code
+
+  |                                                                         |.................................................................| 100%
+label: info
+
+output file: template.knit.md
+
+/usr/bin/pandoc template.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures --output template.html --smart --email-obfuscation none +RTS -K64m -RTS --standalone --section-divs --table-of-contents --toc-depth 3 --template /mnt/lustre/home/jdblischak/lib64/R/library/rmarkdown/rmd/h/default.html --variable 'theme:bootstrap' --include-in-header /tmp/RtmpIdz369/rmarkdown-str2bed216758a9.html --no-highlight --variable highlightjs=libs/highlight --include-in-header include/in_header.html --include-before-body include/before_body.html --include-after-body include/after_body.html 
+
+Output created: template.html
