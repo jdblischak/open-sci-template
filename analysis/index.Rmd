@@ -1,0 +1,12 @@
+---
+title: "Home"
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r system("git log -1 --format='%H'", intern = TRUE)`
+
+---
+
+This is the main landing page for the project website.
+Add links here to your analyses.
