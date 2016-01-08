@@ -1,0 +1,42 @@
+---
+title: "License"
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r system("git log -1 --format='%H'", intern = TRUE)`
+
+---
+
+Choose a license for the results, code, and data.
+For more information on licenses, see [Morin et al., 2012][morin2012].
+
+[morin2012]: http://www.ncbi.nlm.nih.gov/pubmed/22844236
+
+## Results
+
+Describe the license for the results published on your website.
+Creative works are often licensed using a [Creative Commons license][cc-wikipedia].
+For help choosing a Creative Commons license, visit their [website][cc].
+
+[cc-wikipedia]: https://en.wikipedia.org/wiki/Creative_Commons_license
+[cc]: https://creativecommons.org/choose/
+
+## Code
+
+Describe the license for the code used in your project.
+For help choosing a open source software license, see [choosealicense.com][].
+
+[choosealicense.com]: http://choosealicense.com/
+
+## Data
+
+Describe the license for the data for your project.
+A [Creative Commons][cc] license would be appropriate.
+
+## Citation
+
+Describe how you want others to cite you.
+
+[code-license]: https://www.gnu.org/licenses/gpl-3.0.txt
+[site-license]: https://creativecommons.org/licenses/by-nd/4.0/

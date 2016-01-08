@@ -1,0 +1,33 @@
+---
+title: "About"
+---
+
+**Last updated:** `r Sys.Date()`
+
+**Code version:** `r system("git log -1 --format='%H'", intern = TRUE)`
+
+---
+
+## Project
+
+Describe your project here.
+
+## Authors
+
+List author names, affilitation, and any other relevant information.
+
+## Open Science Template
+
+This project website was created using the [Open Science Template][open-sci-template].
+It is powered by many wonderful publicly available tools:
+[R Markdown][rmarkdown], [knitr][], and [pandoc][].
+In fact, the initial template for this site was modeled after the [R Markdown website][rmd-site].
+The site is hosted using [GitHub Pages][gh-pages].
+To create your own project website, follow the instructions available at the template's [GitHub page][open-sci-template].
+
+[open-sci-template]: https://github.com/jdblischak/open-sci-template
+[rmarkdown]: http://rmarkdown.rstudio.com/
+[knitr]: http://yihui.name/knitr/
+[pandoc]: http://pandoc.org/
+[rmd-site]: https://github.com/rstudio/rmarkdown/tree/gh-pages
+[gh-pages]: https://pages.github.com/
